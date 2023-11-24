@@ -2,7 +2,7 @@ import { useEffect, useState,useContext } from "react";
 import "./App.css";
 import Posts from "./components/posts";
 import MyContextProvider, { MyContext } from "./context";
-import { Navigate, useNavigate } from "react-router-dom";
+import { navigate, useNavigate } from "react-router-dom";
 
 function Ecommerce() {
   const { productData, setProductData } = useContext(MyContext);

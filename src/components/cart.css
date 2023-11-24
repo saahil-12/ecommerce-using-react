@@ -1,10 +1,11 @@
-/* Body styles */
+/* Body styles
 /* body {
   background-color: #00539c;
 } */
 
 .cart-main {
   width: 90%;
+  padding: 20px;
   display: flex;
   justify-content:space-between;
   margin: auto;
@@ -134,6 +135,5 @@
 .cart-button:hover {
   background-color: #2b672e;
 }
-
 
 
