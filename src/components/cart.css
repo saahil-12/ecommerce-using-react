@@ -1,0 +1,139 @@
+/* Body styles */
+/* body {
+  background-color: #00539c;
+} */
+
+.cart-main {
+  width: 90%;
+  display: flex;
+  justify-content:space-between;
+  margin: auto;
+}
+
+.item-list {
+  width: 66%;
+  background-color: white;
+}
+
+.OrderSummary {
+  background-color: white;
+  width: 28%;
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+}
+
+/* Cart page styles */
+.cart {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cart-item-list {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.btn-sec{
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.top-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.imgitem{
+    width: 7rem;
+    min-width: 7rem;
+
+}
+.imgitem .image{
+    max-width: 100%;
+}
+
+.cart-item-name {
+  font-size: 1rem;
+}
+
+.cart-item-price {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.cart-order-summary {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.cart-order-summary-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.cart-order-summary-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.cart-order-summary-label {
+  font-size: 1rem;
+  width: 50%;
+}
+
+.cart-order-summary-value {
+  font-size: 1rem;
+  width: 50%;
+  text-align: right;
+}
+
+.cart-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #388e3c;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.total-amount{
+    font-weight: 700;
+    text-align: center;
+}
+.product-summary{
+    font-weight: 700;
+    text-align: center;
+}
+
+.cart-button:hover {
+  background-color: #2b672e;
+}
+
+
+
