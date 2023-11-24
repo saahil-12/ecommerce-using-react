@@ -4,6 +4,7 @@ import "./posts.css"
 export default function Posts({data,counter,index}) {
 
   const handleAddToCart = () => {
+
     counter(index);
   }
 
@@ -18,7 +19,7 @@ export default function Posts({data,counter,index}) {
           <p>{data?.price}</p>
                 {/* <p className="card-description">{data.description}</p> */}
           <div>
-            <button className="card-button" onClick={handleAddToCart}>{data?.isCart ? 'Added to Cart' : 'Add to Cart'}</button>
+            <button className="card-button" onClick={handleAddToCart} style={{backgroundColor: data?.isCart ? "green" : "#F9D949"}}>{data?.isCart ? 'Added to Cart' : 'Add to Cart'}</button>
             <button className="Buynow-button" >Buy Now</button>
           </div>
         </div>
